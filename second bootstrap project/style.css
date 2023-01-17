@@ -1,0 +1,98 @@
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+
+}
+.navbar-nav li a{
+    color: white;
+    font-size: medium;
+    float: right;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar-nav li a:hover{
+    color: rgb(19, 17, 17);
+}
+.navbar-toggler span img{
+    width: 2.5rem;
+}
+
+/****** banner section*********/
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: 5%;
+    color: white;
+
+}
+.A{
+    margin-top: 30px;
+}
+.col-md-6 h5{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.col-md-6 a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+/***************testimonails section***********************/
+
+
+
+/****************services section*************/
+#services .container{
+    position: relative;
+}
+.title::before{
+    content: ' ';
+    background: crimson;
+    height: 5px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translatey(63px); 
+}
+
+
+.testimonial{
+border-left: 4px solid #7b1798;
+margin-top:50px ;
+margin-bottom: 50px;
+    
+} 
+/*************footer************/
+#Footer{
+    margin-top: 80px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: -15%;
+}
+.foot ul li img{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+  padding: 5px;   
+  border-radius: 5px;
+}
+.foot ul li p{
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media(max-width:1000px){
+    .navbar-nav li a{
+        margin-right: 20px;
+    }
+}
